@@ -1,0 +1,60 @@
+.todo{
+  text-align: center;
+}
+.con{
+  border: 1px solid #eee;
+  width: 666px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quan{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.complated{
+  width: 20px;
+  height: 20px;
+  border: 1px solid skyblue;
+  border-radius: 50%;
+  background-color: skyblue;
+}
+.list{
+  list-style: none;
+}
+.list li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+.list li p{
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+.del{
+  cursor: pointer;
+}
+.noDel{
+  opacity: 0;
+}
+.bom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bom .center span{
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.bom .center .active{
+  border: 1px solid sienna;
+}
